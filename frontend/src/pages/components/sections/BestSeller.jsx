@@ -11,7 +11,7 @@ const BestSeller = ({ productsProp, addToCart }) => {
 
   useEffect(() => {
     if (Array.isArray(productsProp) && productsProp.length > 0) {
-      setProducts(productsProp.slice(0, 12));
+      setProducts(productsProp);
       setLoading(false);
     }
   }, [productsProp]);
@@ -21,6 +21,10 @@ const BestSeller = ({ productsProp, addToCart }) => {
       <div className="container-fluid d-flex flex-column justify-content-center align-items-center">
         <h2 className="mt-5 mb-0 mb-md-2 text-center">BEST SELLERS</h2>
         <h5 className="text-dark text-center mt-5 mb-0">Loading</h5>
+        <p className="text-muted">
+          This may take a moment as the free database hosting service needs time
+          to wake up after being idle. Try reloading.
+        </p>
         <FiLoader size={50} className="mb-5 mt-0 loader" />
       </div>
     );
