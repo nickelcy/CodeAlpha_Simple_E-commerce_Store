@@ -34,9 +34,9 @@ const Footer = () => {
           target="_blank"
           rel="noopener noreferrer"
           className="mx-2"
-        > */}
+        > 
           <FaInstagram size={26} className="rounded-3 socials s4" />
-        </a>
+        </a>*/}
       </div>
       <p className="text-center px-3 small mb-0">
        Copyright&copy; 2025. Design by Nickelcy Francois
