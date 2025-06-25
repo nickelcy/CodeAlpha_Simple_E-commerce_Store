@@ -29,12 +29,12 @@ const Footer = () => {
         >
           <FaYoutube size={30} className="socials s3" />
         </a>
-        <a
-          href="https://www.instagram.com/nickelcyfrancois/"
+{/*         <a
+          href="https://www.instagram.com/nickelcy/"
           target="_blank"
           rel="noopener noreferrer"
           className="mx-2"
-        >
+        > */}
           <FaInstagram size={26} className="rounded-3 socials s4" />
         </a>
       </div>
